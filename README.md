@@ -1,2 +1,2 @@
 # DeadLockDetect
-An example of deadlock detection in c++
+An example of recursive deadlock detection in c++, written during jr years.
