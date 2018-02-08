@@ -441,9 +441,5 @@ int main(int argc, char** argv)
     exit(1);
   }
 
-  detectDeadlock(argv[1]);
-  // if don't want to use command line do following. Need to recompile by hand since file 
-  // name to get simulated events from is hard coded.
-  // Make sure you revert back to using command line before submitting your program.
-  //detectDeadlock("state-01.sim");  
+  detectDeadlock(argv[1]);  
 }
